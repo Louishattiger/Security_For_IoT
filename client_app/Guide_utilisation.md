@@ -1,0 +1,1 @@
+# Utilisation du l'application terminal
