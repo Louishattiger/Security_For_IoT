@@ -1,4 +1,4 @@
-ackage com.sun.javacard.samples.SecureApplet;
+package com.sun.javacard.samples.SecureApplet;
 
 import javacard.framework.*;
 import javacard.security.*;
