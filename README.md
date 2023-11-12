@@ -7,6 +7,8 @@ Vous pouvez retrouver dans ce repo git:
 - Notre client python
 - Notre rapport
 
+Pour nous aider à démarrer et à comprendre ce que nous devions réaliser nous nous sommes inspirés de ce repo github: https://github.com/SAFAA-HAZAR/Signature-Electronique/blob/master/signature.java
+
 ## Auteurs
 
 - Elisa ROUX
