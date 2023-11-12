@@ -31,7 +31,7 @@ public class SecureApplet extends Applet {
         pin = new OwnerPIN(MAX_PIN_TRIES, (byte) 4);
         pin.update(pinCode, (short) 0, (byte) 4);
 
-        keyPair = new KeyPair(KeyPair.ALG_RSA, KeyBuilder.LENGTH_RSA_1024);
+        keyPair = new KeyPair(KeyPair.ALG_RSA, KeyBuilder.LENGTH_RSA_512);
         keyPair.genKeyPair();
         publicKey = (RSAPublicKey) keyPair.getPublic();
         privateKey = (RSAPrivateKey) keyPair.getPrivate();      
