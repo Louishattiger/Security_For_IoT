@@ -23,6 +23,8 @@ Elle permet de s'authentifier sur la carte et de modifier le code PIN mais les a
 - Vérifier la signature reçue de la carte grâce à la clé publqiue
 - Si la signature est vérifiée, écrire les données signées dans un fichier de sortie
 
+Le fichier data.txt contient les données qui vont être envoyées à la carte pour être signées.
+
 ## Lancement de l'application
 
 Pour démarrer notre client dans un terminal, il est possible d'utiliser la ligne de commande `python3 client.py`
